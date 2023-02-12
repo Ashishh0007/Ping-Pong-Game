@@ -1,12 +1,9 @@
 /* main body */
 body{
+
+    background: linear-gradient(90deg, rgba(102,28,132,1) 0%, rgba(102,28,132,1) 0%, rgba(86,2,119,1) 1%, rgba(228,238,234,1) 100%);
     font-family: cursive;
 
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-
-    height: 100vh;
-    margin: 0px;
 }
 
 
@@ -21,6 +18,7 @@ body{
 .rods {
     height: 20px;
     width: 19.5vw;
+    background-color:#e4eeea;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +27,7 @@ body{
     color: black;
     font-size: large;
     text-transform: capitalize;
+    border: 2px solid black;
     padding: 6px;
 
 }
@@ -38,9 +37,6 @@ body{
     top: 0;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    background-color: #0093E9;
-    background-image: linear-gradient(180deg, #0093E9 0%, #91f4e8 100%);
-    color: white;   
 }
 
 /* ball */
@@ -64,7 +60,4 @@ body{
     bottom: 0;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    background-color: #0093E9;
-    background-image: linear-gradient(0deg, #0093E9 0%, #80D0C7 100%);
-
 }
