@@ -32,7 +32,7 @@ localStorage.setItem(store_name, "null");
     highScore = localStorage.getItem(store_score);
     rodName = localStorage.getItem(store_name);
     if(highScore === 'null' || rodName === 'null') {
-        alert(' Hey!\n This is your first game. \n Press "Left Arrow" or Key "S" for moving left direction. \n Press "Right Arrow" or Key "D" for moving right direction. \n Press "Enter" to Start the Game!')
+        alert(' Hey!\n This is your first game. \n Press "Left Arrow" or Key "A" for moving left direction. \n Press "Right Arrow" or Key "D" for moving right direction. \n Press "Enter" to Start the Game!')
 
         spin.classList.remove("fa-spin");
         highScore = 0;
